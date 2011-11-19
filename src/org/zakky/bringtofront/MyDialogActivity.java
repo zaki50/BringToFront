@@ -21,9 +21,6 @@ public class MyDialogActivity extends Activity {
     protected void onStart() {
         super.onStart();
 
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_ALT_FOCUSABLE_IM,
-                WindowManager.LayoutParams.FLAG_ALT_FOCUSABLE_IM);
-
         final AlertDialog.Builder adb = new AlertDialog.Builder(this);
         adb.setTitle("ちょっといいですか");
         adb.setMessage("BringToFrontActivity を表示したいです");
