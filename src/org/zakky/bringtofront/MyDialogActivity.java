@@ -7,7 +7,6 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.WindowManager;
 
 public class MyDialogActivity extends Activity {
     private final MyDialogActivity self = this;
